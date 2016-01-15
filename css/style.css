@@ -118,4 +118,8 @@ button {
   background-color: #f15a29;
 }
 
-
+button:hover {
+  cursor: pointer;
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+}
