@@ -141,6 +141,21 @@ button:hover {
 
 .cases .devices > li {
   width: 33.333333%;
+  max-width: ;
   display: inline-block;
   float: left;
+}
+
+.cases .content h2,
+.cases .content h3 {
+  color: black;
+  font-weight: 300;
+}
+
+.content h2 {
+  font-size: 3.125rem;
+}
+
+.content  .devices h3 {
+  font-size: 1.6rem;
 }
