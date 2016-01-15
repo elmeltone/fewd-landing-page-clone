@@ -22,11 +22,6 @@ html {
   margin-top: 1em;
 }
 
-.active {
-  color: #4c5058;
-  font-weight: 500;
-}
-
 .top-navigation .content {
   padding: 0 0;
   -webkit-font-smoothing: antialiased;
@@ -48,14 +43,26 @@ html {
 
 }
 
-a:link {
-  text-decoration: none;
+#active {
+  color: #4c5058;
+  font-weight: 500;
 }
 
-.top-navigation .links li:hover {
+a:link {
+  text-decoration: none;
+  color: #838994;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #838994;
+}
+
+a:hover {
   cursor: pointer;
   color: #333333;
 }
+
 
 /* Background Image Section */
 
