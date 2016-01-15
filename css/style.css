@@ -124,4 +124,21 @@ button:hover {
     border-color: #cf3d0e;
 }
 
-/* */
+/* Description/Foot Section*/
+
+.description {
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.icons {
+  margin: 0 auto;
+  align: center;
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  list-style-type: none;
+  float:
+}
