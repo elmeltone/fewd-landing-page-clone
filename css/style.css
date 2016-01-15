@@ -6,10 +6,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Navigation Section */
 
 .top-navigation {
   background-color: #fff;
+  height: 3em;
 }
 
 .top-navigation > .content {
@@ -23,15 +29,13 @@ html {
 }
 
 .top-navigation .content {
-  padding: 0 0;
-  -webkit-font-smoothing: antialiased;
+  padding: 0 15;
 }
 
 .top-navigation .links{
   margin-top: 1.7rem;
   list-style-type: none;
   float: right;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #838994;
   letter-spacing: 0.03em;
@@ -75,4 +79,15 @@ a:hover {
   max-height: 600px;
   vertical-align: middle;
 }
+
+.introduction .content {
+  color: white;
+  width: 970px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
 
