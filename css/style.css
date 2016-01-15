@@ -126,19 +126,21 @@ button:hover {
 
 /* Description/Foot Section*/
 
-.description {
-  margin: 0 auto;
-  text-align: center;
+.cases {
   background-color: white;
   overflow: hidden;
+  padding-bottom: 5rem;
 }
 
-.icons {
+.cases .content {
   margin: 0 auto;
-  align: center;
-  width: 10rem;
-  height: 10rem;
+  text-align: center;
+  padding: none;
+  color: #1d1e21;
+}
+
+.cases .devices > li {
+  width: 33.333333%;
   display: inline-block;
-  list-style-type: none;
-  float:
+  float: left;
 }
