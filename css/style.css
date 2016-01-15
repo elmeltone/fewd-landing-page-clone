@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* Navigation Section */
 
 .top-navigation {
@@ -36,9 +44,15 @@
 
 .links > li {
   display: inline-block;
-  margin-left: 32px;
+  margin-left: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  color: none;
 }
 
 li:hover {
-  color: black;
+  cursor: pointer;
+  color: #333333;
 }
