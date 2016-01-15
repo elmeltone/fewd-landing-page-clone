@@ -15,7 +15,7 @@ body {
 
 .top-navigation {
   background-color: #fff;
-  height: 3em;
+  height: 4.5em;
 }
 
 .top-navigation > .content {
@@ -80,7 +80,8 @@ a:hover {
   vertical-align: middle;
 }
 
-.introduction .content {
+.introduction h1,
+.introduction h3 {
   color: white;
   width: 970px;
   margin: 0 auto;
