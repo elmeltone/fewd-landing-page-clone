@@ -152,10 +152,12 @@ button:hover {
   font-weight: 300;
 }
 
-.content h2 {
+.cases .content h2 {
   font-size: 3.125rem;
 }
 
-.content  .devices h3 {
+.cases .content .devices h3 {
   font-size: 1.6rem;
 }
+
+
