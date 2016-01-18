@@ -127,7 +127,7 @@ button:hover {
     border-color: #cf3d0e;
 }
 
-/* Description Section*/
+/* Description Section */
 
 .cases {
   background-color: white;
@@ -166,7 +166,7 @@ button:hover {
 
 .social {
   background-color: white;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
 }
 
@@ -190,7 +190,6 @@ button:hover {
   margin: 1.25rem 5px;
   border: 1px solid #eaebec;
   padding: 0.625rem 0;
-  text-align: center;
 }
 
 .social .content h4 {
